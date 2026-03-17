@@ -30,6 +30,10 @@ ENV/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+# Output files - exclude HTML
+outputs/*.html
+*.html
+
 # Data files
 *.csv
 *.xlsx
